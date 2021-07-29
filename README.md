@@ -1,4 +1,4 @@
-# DSC Web Development Track 2021
+# DSC Web Development Track 2021 Project
 
 ## How to use?
 - Open the terminal in your device.

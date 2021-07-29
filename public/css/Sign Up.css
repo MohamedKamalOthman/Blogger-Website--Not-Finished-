@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(220deg, #32e0c3c2, #32a9e0b7),
+    url("../images/bg4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  width: 25%;
+  background-color: #393e46;
+  position: relative;
+  left: 50%;
+  top: 55%;
+  transform: translate(-50%, -50%);
+  border-radius: 2px;
+}
+
+h1 {
+  padding: 7% 5% 0;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #eeeeee;
+  font-weight: 400;
+  font-size: 25px;
+}
+
+form {
+  max-height: 75vh;
+  overflow-y: auto;
+  padding-bottom: 5%;
+}
+
+/* width */
+form::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+form::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+form::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+form::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.inputs {
+  margin: 10% 10% 5%;
+}
+
+input {
+  display: block;
+  width: 100%;
+  height: 5%;
+  border: none;
+  outline: none;
+  font-size: 100%;
+  background-color: #393e46;
+  color: #eeeeee;
+  border-bottom: 1px solid #32e0c4;
+}
+input::placeholder {
+  color: #eeeeeed7;
+}
+
+select {
+  width: 100%;
+  height: 5%;
+  border: none;
+  border-bottom: 1px solid #32e0c4;
+  outline: none;
+  background-color: #393e46;
+}
+select:required:invalid {
+  color: #eeeeeed7;
+}
+select:hover {
+  background-color: #32e0d7b7;
+}
+input[type="date"]:invalid::-webkit-datetime-edit {
+  color: #eeeeee;
+}
+.buttons {
+  margin: 0 10%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+input[type="submit"] {
+  width: 35%;
+  padding: 4%;
+  background-image: linear-gradient(220deg, #32e0c3c2, #32a9e0b7);
+  border: none;
+  color: #eeeeee;
+}
+
+input:hover {
+  background-color: #32e0d7b7;
+}

@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    width: 100%;
+    height: 10%;
+    background-color: #222831;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav h2 {
+    margin: 0 0 0 5%;
+    font-family: cursive;
+    color: #32e0c4;
+    font-size: 25px;
+}
+
+.nav ul {
+    height: 100%;
+    width: 30%;
+    margin: 0 5% 0 0;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav ul li {
+    margin: 2%;
+    border-bottom: 1px #32e0c4 solid;
+    padding: 2%;
+    transition: background-color 0.2s ease;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color:#eeeeee;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: all 0.2s ease;
+}
+
+.nav ul li:hover {
+    background-color: #32e0c386;
+}
+
+.nav ul li:hover a {
+    color: white;
+}
+
+.input-fields {
+    margin: 5% 0;
+}
+
+.err_msg {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ff3333;
+}
+
+ul.flashes {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style: none;
+    padding: 4% 6%;
+}
+
+ul.flashes li {
+    border-radius: 1px;
+    padding: 2%;
+    text-align: center;
+}
+
+ul.flash_success li {
+    background-color: #c3ffa0;
+    border: 2px solid green;
+}
+
+ul.flash_error li {
+    background-color: #ffa0a0;
+    border: 2px solid rgb(128, 0, 0);
+}

@@ -1,0 +1,78 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(220deg, #32e0c3c2, #32a9e0b7),
+    url("../images/bg4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* post container side */
+.container {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  background-color: #393e46;
+}
+
+h1 {
+  text-align: center;
+  font-size: 25px;
+  padding: 2%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #eeeeee;
+  font-weight: 400;
+}
+
+textarea {
+  display: block;
+  width: 100%;
+  height: 10em;
+  padding: 2%;
+  margin: 2% auto;
+  border: 1px solid #32e0c4;
+  outline: none;
+  resize: none;
+  background-color: #393e46;
+  color: #eeeeee;
+}
+textarea::placeholder {
+  color: #eeeeee;
+}
+input {
+  display: block;
+  margin: 2% auto;
+  background-color: #393e46;
+  color: #eeeeee;
+}
+input::placeholder {
+  color: #eeeeee;
+}
+input[type="submit"] {
+  width: 35%;
+  padding: 1%;
+  margin: auto;
+  background-image: linear-gradient(220deg, #32e0c3c2, #32a9e0b7);
+  border: none;
+  color: #eeeeee;
+  outline: none;
+  font-size: 20px;
+}
+
+form {
+  width: 80%;
+  margin: auto;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 2%;
+  border: 1px solid #32e0c4;
+  outline: none;
+}
+
+.buttons {
+  padding: 2%;
+}
